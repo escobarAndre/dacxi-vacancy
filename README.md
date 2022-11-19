@@ -4,21 +4,21 @@
 
 Este projeto foi construído utilizando Vue 3 e VITE, você pode se interar através da documentação [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup)
 
-Para visualizar o projeto, realizei o deploy através da Vercel e que está disponível em [DACXI - André Escobar](https://dacxi-vacancy.vercel.app/)
+Para visualizar o projeto, realizei o deploy através da Vercel que está disponível em [DACXI - André Escobar](https://dacxi-vacancy.vercel.app/)
 
 ### Principais Bibliotecas 
 
-- [Vue Use]()
-- [Vue Date Picker]()
-- [Axios]()
-- [Tailwind CSS]()
+- [Vue Use](https://vueuse.org/)
+- [Vue Date Picker](https://vue3datepicker.com/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
+- [Tailwind CSS](https://tailwindcss.com/docs/installation)
 
 ### Bibliotecas de importação
 
 As bibliotecas de importação do VITE facilitam a implementação, além de deixar o código mais limpo.
 
-- [Unplugin Vue Components]()
-- [Unplugin Auto Import]()
+- [Unplugin Vue Components](https://github.com/antfu/unplugin-vue-components)
+- [Unplugin Auto Import](https://github.com/antfu/unplugin-auto-import)
 
 ### Instalação
 
