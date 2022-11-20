@@ -3,7 +3,7 @@
 		<td class="px-5 text-center">
 			{{ geckoRanking }}
 		</td>
-		<td class="flex items-center gap-4">
+		<td class="flex items-center gap-1.5 md:gap-4">
 			<img :src="imageUrl" class="w-6" :alt="`Logo ${name}`" />
 			{{ name }}
 			<span

@@ -1,12 +1,14 @@
 <template>
 	<div>
-		<div class="flex items-center justify-between">
+		<div
+			class="flex flex-col md:flex-row items-start md:items-center justify-between gap-y-2.5"
+		>
 			<span class="text-white text-2xl font-semibold">Mercado de cryptos</span>
 
 			<Datepicker
 				v-model="date"
 				placeholder="Selecione a data e horário em que deseja ver o preço das moedas"
-				class="w-[60%]"
+				class="w-full md:w-[60%]"
 			/>
 		</div>
 	</div>

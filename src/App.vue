@@ -30,8 +30,11 @@
 					fill="currentFill"
 				/>
 			</svg>
-			<section v-else class="w-full px-10 py-5">
-				<filters-bar v-model="date" class="h-20 w-full" />
+			<section
+				v-else
+				class="w-full h-full px-3 md:px-10 py-5 overflow-y-scroll"
+			>
+				<filters-bar v-model="date" class="h-24 md:h-20 w-full" />
 				<coin-table
 					@sort-by="setSortBy"
 					:is-geting-price-in-selected-date="isGetingPriceInSelectedDate"
